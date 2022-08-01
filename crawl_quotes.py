@@ -3,19 +3,6 @@ import requests
 import json
 import re
 
-pages = [
-    "http://quotes.toscrape.com/",
-    "http://quotes.toscrape.com/page/2/",
-    "http://quotes.toscrape.com/page/3/",
-    "http://quotes.toscrape.com/page/4/",
-    "http://quotes.toscrape.com/page/5/",
-    "http://quotes.toscrape.com/page/6/"
-    "http://quotes.toscrape.com/page/7/"
-    "http://quotes.toscrape.com/page/8/"
-    "http://quotes.toscrape.com/page/9/"
-    "http://quotes.toscrape.com/page/10/"
-]
-
 
 def get_author_details(next_url, author_name):
     authors_url = "http://quotes.toscrape.com/" + str(next_url['href'])
@@ -63,6 +50,19 @@ def get_each_quote_data(each):
 
 quotes_list = []
 authors_list = []
+
+pages = [
+    "http://quotes.toscrape.com/",
+    "http://quotes.toscrape.com/page/2/",
+    "http://quotes.toscrape.com/page/3/",
+    "http://quotes.toscrape.com/page/4/",
+    "http://quotes.toscrape.com/page/5/",
+    "http://quotes.toscrape.com/page/6/"
+    "http://quotes.toscrape.com/page/7/"
+    "http://quotes.toscrape.com/page/8/"
+    "http://quotes.toscrape.com/page/9/"
+    "http://quotes.toscrape.com/page/10/"
+]
 
 
 def main():
