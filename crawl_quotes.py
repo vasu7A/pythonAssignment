@@ -3,10 +3,6 @@ import requests
 import json
 import re
 
-quotes_list = []
-authors_list = []
-tags_list = []
-
 pages = [
     "http://quotes.toscrape.com/",
     "http://quotes.toscrape.com/page/2/",
@@ -39,6 +35,9 @@ def get_author_details(next_url, author_name):
     })
 
 
+tags_list = []
+
+
 def get_tags_list(tags):
     tags_list = []
     for each in tags:
@@ -62,22 +61,29 @@ def get_each_quote_data(each):
     })
 
 
-for each_url in pages:
-    url = each_url
-    result = requests.get(url)
-    page_data = BeautifulSoup(result.text, "html.parser")
-    each_quote = page_data.find_all("div", class_="quote")
+quotes_list = []
+authors_list = []
 
-    for each in each_quote:
-        get_each_quote_data(each)
 
-    data = {
-        "quotes": quotes_list,
-        "authors": authors_list,
-    }
+def main():
+    for each_url in pages:
+        url = each_url
+        result = requests.get(url)
+        page_data = BeautifulSoup(result.text, "html.parser")
+        each_quote = page_data.find_all("div", class_="quote")
 
-    with open("quotes.json", 'w') as f:
-        json.dump(data, f)
-        f.close()
+        for each in each_quote:
+            get_each_quote_data(each)
 
+        data = {
+            "quotes": quotes_list,
+            "authors": authors_list,
+        }
+
+        with open("quotes.json", 'w') as f:
+            json.dump(data, f)
+            f.close()
+
+
+main()
 print("Data Transfer Completed!")
