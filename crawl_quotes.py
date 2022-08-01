@@ -21,21 +21,16 @@ pages = [
 
 
 def get_author_details(next_url, author_name):
-    print(author_name.string.encode('utf-8'))
-    authors_url = str(url) + str(next_url['href'])
-
+    authors_url = "http://quotes.toscrape.com/" + str(next_url['href'])
     authors_url_response = requests.get(authors_url)
-
     authors_data = BeautifulSoup(authors_url_response.text, "html.parser")
     author_born_date = authors_data.find("span", class_="author-born-date")
     author_born_place = authors_data.find(
         "span", class_="author-born-location")
-
-    born = str(author_born_date) + str(author_born_place)
-
+    born = str(author_born_date.string.encode('utf-8')) + \
+        str(author_born_place.string.encode('utf-8'))
     reference = authors_url
     name = author_name.string.encode('utf-8')
-
     authors_list.append({
         "name": name,
         "born": born,
@@ -80,3 +75,5 @@ for each_url in pages:
     with open("quotes.json", 'w') as f:
         json.dump(data, f)
         f.close()
+
+print("Data Trasfer Completed!")
