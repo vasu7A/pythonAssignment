@@ -15,15 +15,18 @@ cursor.execute(query)
 cursor.execute('''create table Quotes(
     quotes text not null Primary Key,
     author text not null,
-    tags Integer not null
+    tags Integer not null,
+    id Integer not null
     );''')
-
+count = 1
 for each in (data['quotes']):
     quote = each['quote']
     author = each['author']
     tags = len(each['tags'])
-    cursor.execute('''insert into  quotes values(?,?,?)''',
-                   (quote, author, tags))
+    id = count
+    cursor.execute('''insert into  quotes values(?,?,?,?)''',
+                   (quote, author, tags, id))
+    count += 1
 
 
 query = '''Drop table if exists Authors'''

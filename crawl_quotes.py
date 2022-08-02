@@ -1,3 +1,5 @@
+# Used CCBP IDE with pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)
+
 from bs4 import BeautifulSoup
 import requests
 import json
