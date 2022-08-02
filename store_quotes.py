@@ -1,7 +1,6 @@
 import sqlite3
 import json
 
-new_data = {}
 
 with open("quotes.json", "r") as f:
     data = json.load(f)
@@ -46,10 +45,5 @@ for each in (data['authors']):
 
 sqliteConnection.commit()
 
-cursor.execute('''select count(born) from Authors ''')
-result = cursor.fetchall()
-
-for each in result:
-    print(each)
 
 cursor.close()
