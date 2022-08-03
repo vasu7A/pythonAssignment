@@ -16,26 +16,18 @@ cursor.execute('''create table Quotes(
     id Integer not null Primary Key,
     quotes text not null ,
     author text not null,
-<<<<<<< HEAD
     tags Integer not null
-    
-=======
-    tags Integer not null,
-    id Integer not null
->>>>>>> 18b00086eb34856635cb4fd9402c0dcbe50d6bde
     );''')
+
 count = 1
+
 for each in (data['quotes']):
     quote = each['quote']
     author = each['author']
     tags = len(each['tags'])
     id = count
     cursor.execute('''insert into  quotes values(?,?,?,?)''',
-<<<<<<< HEAD
                    (id, quote, author, tags))
-=======
-                   (quote, author, tags, id))
->>>>>>> 18b00086eb34856635cb4fd9402c0dcbe50d6bde
     count += 1
 
 
@@ -53,6 +45,7 @@ cursor.execute('''create table Authors(
     );''')
 
 Authors_id = 1
+
 for each in (data['authors']):
     id = count
     born = each['born']
@@ -85,7 +78,7 @@ def create_with_unique_authors(unique_authors):
     for each in unique_authors:
         each_str = str(each)
         cursor.execute(''' select count(author) from Quotes where author =?''',
-                       (each_str.encode('utf-8'),))
+                       (each_str.decode('utf-8'),))
         result = cursor.fetchone()
         quotes_count = result[0]
         create_with_table_unique_authors(quotes_id, each, quotes_count)

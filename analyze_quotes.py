@@ -40,35 +40,12 @@ def get_tag_counts():
 
 
 def get_top_author_quotes():
-<<<<<<< HEAD
     cursor.execute(
         ''' select author_name from Authors_count order by count DESC''')
     result = cursor.fetchmany(5)
     print("The top five Authors with maximum number of quotations: ")
     for each in result:
         print(each[0])
-=======
-    query = (''' select author
-             from  Quotes ''')
-    cursor.execute(query)
-    result = cursor.fetchall()
-    utf_result = []
-    # i'm not getting desired result with querying so, did it with python code.
-    for each in result:
-        utf_result.append(each[0].encode('utf-8'))
-
-    set_result = set(utf_result)
-    count = list()
-    for each in set_result:
-        count.append(utf_result.count(each))
-    list_result = list(set_result)
-    print("The top five Authors with maximum number of quotations: ")
-    print(list_result[-2])
-    print(list_result[7])
-    print(list_result[-8])
-    print(list_result[11])
-    print(list_result[12])
->>>>>>> 18b00086eb34856635cb4fd9402c0dcbe50d6bde
 
 
 get_total_no_of_quotes()
