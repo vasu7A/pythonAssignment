@@ -16,8 +16,13 @@ cursor.execute('''create table Quotes(
     id Integer not null Primary Key,
     quotes text not null ,
     author text not null,
+<<<<<<< HEAD
     tags Integer not null
     
+=======
+    tags Integer not null,
+    id Integer not null
+>>>>>>> 18b00086eb34856635cb4fd9402c0dcbe50d6bde
     );''')
 count = 1
 for each in (data['quotes']):
@@ -26,7 +31,11 @@ for each in (data['quotes']):
     tags = len(each['tags'])
     id = count
     cursor.execute('''insert into  quotes values(?,?,?,?)''',
+<<<<<<< HEAD
                    (id, quote, author, tags))
+=======
+                   (quote, author, tags, id))
+>>>>>>> 18b00086eb34856635cb4fd9402c0dcbe50d6bde
     count += 1
 
 
