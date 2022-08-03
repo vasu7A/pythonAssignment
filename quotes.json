@@ -278,6 +278,280 @@
       "quote": "\u201cLove does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.\u201d",
       "tags": ["love"],
       "author": "James Baldwin"
+    },
+    {
+      "quote": "\u201cThere is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.\u201d",
+      "tags": ["friendship", "love"],
+      "author": "Jane Austen"
+    },
+    {
+      "quote": "\u201cDo one thing every day that scares you.\u201d",
+      "tags": ["attributed", "fear", "inspiration"],
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "quote": "\u201cI am good, but not an angel. I do sin, but I am not the devil. I am just a small girl in a big world trying to find someone to love.\u201d",
+      "tags": ["attributed-no-source"],
+      "author": "Marilyn Monroe"
+    },
+    {
+      "quote": "\u201cIf I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music. I see my life in terms of music.\u201d",
+      "tags": ["music"],
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "\u201cIf you only read the books that everyone else is reading, you can only think what everyone else is thinking.\u201d",
+      "tags": ["books", "thought"],
+      "author": "Haruki Murakami"
+    },
+    {
+      "quote": "\u201cThe difference between genius and stupidity is: genius has its limits.\u201d",
+      "tags": ["misattributed-to-einstein"],
+      "author": "Alexandre Dumas fils"
+    },
+    {
+      "quote": "\u201cHe's like a drug for you, Bella.\u201d",
+      "tags": ["drug", "romance", "simile"],
+      "author": "Stephenie Meyer"
+    },
+    {
+      "quote": "\u201cThere is no friend as loyal as a book.\u201d",
+      "tags": ["books", "friends", "novelist-quotes"],
+      "author": "Ernest Hemingway"
+    },
+    {
+      "quote": "\u201cWhen one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.\u201d",
+      "tags": ["inspirational"],
+      "author": "Helen Keller"
+    },
+    {
+      "quote": "\u201cLife isn't about finding yourself. Life is about creating yourself.\u201d",
+      "tags": ["inspirational", "life", "yourself"],
+      "author": "George Bernard Shaw"
+    },
+    {
+      "quote": "\u201cThat's the problem with drinking, I thought, as I poured myself a drink. If something bad happens you drink in an attempt to forget; if something good happens you drink in order to celebrate; and if nothing happens you drink to make something happen.\u201d",
+      "tags": ["alcohol"],
+      "author": "Charles Bukowski"
+    },
+    {
+      "quote": "\u201cYou don\u2019t forget the face of the person who was your last hope.\u201d",
+      "tags": ["the-hunger-games"],
+      "author": "Suzanne Collins"
+    },
+    {
+      "quote": "\u201cRemember, we're madly in love, so it's all right to kiss me anytime you feel like it.\u201d",
+      "tags": ["humor"],
+      "author": "Suzanne Collins"
+    },
+    {
+      "quote": "\u201cTo love at all is to be vulnerable. Love anything and your heart will be wrung and possibly broken. If you want to make sure of keeping it intact you must give it to no one, not even an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements. Lock it up safe in the casket or coffin of your selfishness. But in that casket, safe, dark, motionless, airless, it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. To love is to be vulnerable.\u201d",
+      "tags": ["love"],
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "\u201cNot all those who wander are lost.\u201d",
+      "tags": ["bilbo", "journey", "lost", "quest", "travel", "wander"],
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "quote": "\u201cDo not pity the dead, Harry. Pity the living, and, above all those who live without love.\u201d",
+      "tags": ["live-death-love"],
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "\u201cThere is nothing to writing. All you do is sit down at a typewriter and bleed.\u201d",
+      "tags": ["good", "writing"],
+      "author": "Ernest Hemingway"
+    },
+    {
+      "quote": "\u201cFinish each day and be done with it. You have done what you could. Some blunders and absurdities no doubt crept in; forget them as soon as you can. Tomorrow is a new day. You shall begin it serenely and with too high a spirit to be encumbered with your old nonsense.\u201d",
+      "tags": ["life", "regrets"],
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "quote": "\u201cI have never let my schooling interfere with my education.\u201d",
+      "tags": ["education"],
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "\u201cI have heard there are troubles of more than one kind. Some come from ahead and some come from behind. But I've bought a big bat. I'm all ready you see. Now my troubles are going to have troubles with me!\u201d",
+      "tags": ["troubles"],
+      "author": "Dr. Seuss"
+    },
+    {
+      "quote": "\u201cIf I had a flower for every time I thought of you...I could walk through my garden forever.\u201d",
+      "tags": ["friendship", "love"],
+      "author": "Alfred Tennyson"
+    },
+    {
+      "quote": "\u201cSome people never go crazy. What truly horrible lives they must lead.\u201d",
+      "tags": ["humor"],
+      "author": "Charles Bukowski"
+    },
+    {
+      "quote": "\u201cThe trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.\u201d",
+      "tags": ["humor", "open-mind", "thinking"],
+      "author": "Terry Pratchett"
+    },
+    {
+      "quote": "\u201cThink left and think right and think low and think high. Oh, the thinks you can think up if only you try!\u201d",
+      "tags": ["humor", "philosophy"],
+      "author": "Dr. Seuss"
+    },
+    {
+      "quote": "\u201cWhat really knocks me out is a book that, when you're all done reading it, you wish the author that wrote it was a terrific friend of yours and you could call him up on the phone whenever you felt like it. That doesn't happen much, though.\u201d",
+      "tags": ["authors", "books", "literature", "reading", "writing"],
+      "author": "J.D. Salinger"
+    },
+    {
+      "quote": "\u201cThe reason I talk to myself is because I\u2019m the only one whose answers I accept.\u201d",
+      "tags": [
+        "humor",
+        "insanity",
+        "lies",
+        "lying",
+        "self-indulgence",
+        "truth"
+      ],
+      "author": "George Carlin"
+    },
+    {
+      "quote": "\u201cYou may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one.\u201d",
+      "tags": [
+        "beatles",
+        "connection",
+        "dreamers",
+        "dreaming",
+        "dreams",
+        "hope",
+        "inspirational",
+        "peace"
+      ],
+      "author": "John Lennon"
+    },
+    {
+      "quote": "\u201cI am free of all prejudice. I hate everyone equally. \u201d",
+      "tags": ["humor", "sinister"],
+      "author": "W.C. Fields"
+    },
+    {
+      "quote": "\u201cThe question isn't who is going to let me; it's who is going to stop me.\u201d",
+      "tags": [],
+      "author": "Ayn Rand"
+    },
+    {
+      "quote": "\u201c\u2032Classic\u2032 - a book which people praise and don't read.\u201d",
+      "tags": ["books", "classic", "reading"],
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "\u201cAnyone who has never made a mistake has never tried anything new.\u201d",
+      "tags": ["mistakes"],
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "\u201cA lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.\u201d",
+      "tags": ["humor", "love", "romantic", "women"],
+      "author": "Jane Austen"
+    },
+    {
+      "quote": "\u201cRemember, if the time should come when you have to make a choice between what is right and what is easy, remember what happened to a boy who was good, and kind, and brave, because he strayed across the path of Lord Voldemort. Remember Cedric Diggory.\u201d",
+      "tags": ["integrity"],
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "\u201cI declare after all there is no enjoyment like reading! How much sooner one tires of any thing than of a book! -- When I have a house of my own, I shall be miserable if I have not an excellent library.\u201d",
+      "tags": ["books", "library", "reading"],
+      "author": "Jane Austen"
+    },
+    {
+      "quote": "\u201cThere are few people whom I really love, and still fewer of whom I think well. The more I see of the world, the more am I dissatisfied with it; and every day confirms my belief of the inconsistency of all human characters, and of the little dependence that can be placed on the appearance of merit or sense.\u201d",
+      "tags": ["elizabeth-bennet", "jane-austen"],
+      "author": "Jane Austen"
+    },
+    {
+      "quote": "\u201cSome day you will be old enough to start reading fairy tales again.\u201d",
+      "tags": ["age", "fairytales", "growing-up"],
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "\u201cWe are not necessarily doubting that God will do the best for us; we are wondering how painful the best will turn out to be.\u201d",
+      "tags": ["god"],
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "\u201cThe fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.\u201d",
+      "tags": ["death", "life"],
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "\u201cA lie can travel half way around the world while the truth is putting on its shoes.\u201d",
+      "tags": ["misattributed-mark-twain", "truth"],
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "\u201cI believe in Christianity as I believe that the sun has risen: not only because I see it, but because by it I see everything else.\u201d",
+      "tags": ["christianity", "faith", "religion", "sun"],
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "\u201cThe truth.\" Dumbledore sighed. \"It is a beautiful and terrible thing, and should therefore be treated with great caution.\u201d",
+      "tags": ["truth"],
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "\u201cI'm the one that's got to die when it's time for me to die, so let me live my life the way I want to.\u201d",
+      "tags": ["death", "life"],
+      "author": "Jimi Hendrix"
+    },
+    {
+      "quote": "\u201cTo die will be an awfully big adventure.\u201d",
+      "tags": ["adventure", "love"],
+      "author": "J.M. Barrie"
+    },
+    {
+      "quote": "\u201cIt takes courage to grow up and become who you really are.\u201d",
+      "tags": ["courage"],
+      "author": "E.E. Cummings"
+    },
+    {
+      "quote": "\u201cBut better to get hurt by the truth than comforted with a lie.\u201d",
+      "tags": ["life"],
+      "author": "Khaled Hosseini"
+    },
+    {
+      "quote": "\u201cYou never really understand a person until you consider things from his point of view... Until you climb inside of his skin and walk around in it.\u201d",
+      "tags": ["better-life-empathy"],
+      "author": "Harper Lee"
+    },
+    {
+      "quote": "\u201cYou have to write the book that wants to be written. And if the book will be too difficult for grown-ups, then you write it for children.\u201d",
+      "tags": [
+        "books",
+        "children",
+        "difficult",
+        "grown-ups",
+        "write",
+        "writers",
+        "writing"
+      ],
+      "author": "Madeleine L'Engle"
+    },
+    {
+      "quote": "\u201cNever tell the truth to people who are not worthy of it.\u201d",
+      "tags": ["truth"],
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "\u201cA person's a person, no matter how small.\u201d",
+      "tags": ["inspirational"],
+      "author": "Dr. Seuss"
+    },
+    {
+      "quote": "\u201c... a mind needs books as a sword needs a whetstone, if it is to keep its edge.\u201d",
+      "tags": ["books", "mind"],
+      "author": "George R.R. Martin"
     }
   ],
   "authors": [
@@ -530,6 +804,256 @@
       "born": "August 02, 1924 in Harlem, New York, The United States",
       "name": "James Baldwin",
       "reference": "http://quotes.toscrape.com//author/James-Baldwin/"
+    },
+    {
+      "born": "December 16, 1775 in Steventon Rectory, Hampshire, The United Kingdom",
+      "name": "Jane Austen",
+      "reference": "http://quotes.toscrape.com//author/Jane-Austen/"
+    },
+    {
+      "born": "October 11, 1884 in The United States",
+      "name": "Eleanor Roosevelt",
+      "reference": "http://quotes.toscrape.com//author/Eleanor-Roosevelt/"
+    },
+    {
+      "born": "June 01, 1926 in The United States",
+      "name": "Marilyn Monroe",
+      "reference": "http://quotes.toscrape.com//author/Marilyn-Monroe/"
+    },
+    {
+      "born": "March 14, 1879 in Ulm, Germany",
+      "name": "Albert Einstein",
+      "reference": "http://quotes.toscrape.com//author/Albert-Einstein/"
+    },
+    {
+      "born": "January 12, 1949 in Kyoto, Japan",
+      "name": "Haruki Murakami",
+      "reference": "http://quotes.toscrape.com//author/Haruki-Murakami/"
+    },
+    {
+      "born": "July 27, 1824 in Paris, France",
+      "name": "Alexandre Dumas fils",
+      "reference": "http://quotes.toscrape.com//author/Alexandre-Dumas-fils/"
+    },
+    {
+      "born": "December 24, 1973 in Connecticut, The United States",
+      "name": "Stephenie Meyer",
+      "reference": "http://quotes.toscrape.com//author/Stephenie-Meyer/"
+    },
+    {
+      "born": "July 21, 1899 in Oak Park, Illinois, The United States",
+      "name": "Ernest Hemingway",
+      "reference": "http://quotes.toscrape.com//author/Ernest-Hemingway/"
+    },
+    {
+      "born": "June 27, 1880 in Tuscumbia, Alabama, The United States",
+      "name": "Helen Keller",
+      "reference": "http://quotes.toscrape.com//author/Helen-Keller/"
+    },
+    {
+      "born": "July 26, 1856 in Dublin, Ireland",
+      "name": "George Bernard Shaw",
+      "reference": "http://quotes.toscrape.com//author/George-Bernard-Shaw/"
+    },
+    {
+      "born": "August 16, 1920 in Andernach, Germany",
+      "name": "Charles Bukowski",
+      "reference": "http://quotes.toscrape.com//author/Charles-Bukowski/"
+    },
+    {
+      "born": "August 11, 1962 in Hartford, Connecticut, The United States",
+      "name": "Suzanne Collins",
+      "reference": "http://quotes.toscrape.com//author/Suzanne-Collins/"
+    },
+    {
+      "born": "August 11, 1962 in Hartford, Connecticut, The United States",
+      "name": "Suzanne Collins",
+      "reference": "http://quotes.toscrape.com//author/Suzanne-Collins/"
+    },
+    {
+      "born": "November 29, 1898 in Belfast, Ireland",
+      "name": "C.S. Lewis",
+      "reference": "http://quotes.toscrape.com//author/C-S-Lewis/"
+    },
+    {
+      "born": "January 03, 1892 in Bloemfontein, Mangaung, Free State, South Africa",
+      "name": "J.R.R. Tolkien",
+      "reference": "http://quotes.toscrape.com//author/J-R-R-Tolkien/"
+    },
+    {
+      "born": "July 31, 1965 in Yate, South Gloucestershire, England, The United Kingdom",
+      "name": "J.K. Rowling",
+      "reference": "http://quotes.toscrape.com//author/J-K-Rowling/"
+    },
+    {
+      "born": "July 21, 1899 in Oak Park, Illinois, The United States",
+      "name": "Ernest Hemingway",
+      "reference": "http://quotes.toscrape.com//author/Ernest-Hemingway/"
+    },
+    {
+      "born": "May 25, 1803 in Boston, Massachusetts, The United States",
+      "name": "Ralph Waldo Emerson",
+      "reference": "http://quotes.toscrape.com//author/Ralph-Waldo-Emerson/"
+    },
+    {
+      "born": "November 30, 1835 in Florida, Missouri, The United States",
+      "name": "Mark Twain",
+      "reference": "http://quotes.toscrape.com//author/Mark-Twain/"
+    },
+    {
+      "born": "March 02, 1904 in Springfield, MA, The United States",
+      "name": "Dr. Seuss",
+      "reference": "http://quotes.toscrape.com//author/Dr-Seuss/"
+    },
+    {
+      "born": "August 06, 1809 in Somersby, Lincolnshire, The United Kingdom",
+      "name": "Alfred Tennyson",
+      "reference": "http://quotes.toscrape.com//author/Alfred-Tennyson/"
+    },
+    {
+      "born": "August 16, 1920 in Andernach, Germany",
+      "name": "Charles Bukowski",
+      "reference": "http://quotes.toscrape.com//author/Charles-Bukowski/"
+    },
+    {
+      "born": "April 28, 1948 in Beaconsfield, Buckinghamshire, England, The United Kingdom",
+      "name": "Terry Pratchett",
+      "reference": "http://quotes.toscrape.com//author/Terry-Pratchett/"
+    },
+    {
+      "born": "March 02, 1904 in Springfield, MA, The United States",
+      "name": "Dr. Seuss",
+      "reference": "http://quotes.toscrape.com//author/Dr-Seuss/"
+    },
+    {
+      "born": "January 01, 1919 in Manhattan, New York, The United States",
+      "name": "J.D. Salinger",
+      "reference": "http://quotes.toscrape.com//author/J-D-Salinger/"
+    },
+    {
+      "born": "May 12, 1937 in New York, New York, The United States",
+      "name": "George Carlin",
+      "reference": "http://quotes.toscrape.com//author/George-Carlin/"
+    },
+    {
+      "born": "October 09, 1940 in Liverpool, England, The United Kingdom",
+      "name": "John Lennon",
+      "reference": "http://quotes.toscrape.com//author/John-Lennon/"
+    },
+    {
+      "born": "January 29, 1880 in Darby, Pennsylvania, The United States",
+      "name": "W.C. Fields",
+      "reference": "http://quotes.toscrape.com//author/W-C-Fields/"
+    },
+    {
+      "born": "February 02, 1905 in St. Petersburg, Russian Federation",
+      "name": "Ayn Rand",
+      "reference": "http://quotes.toscrape.com//author/Ayn-Rand/"
+    },
+    {
+      "born": "November 30, 1835 in Florida, Missouri, The United States",
+      "name": "Mark Twain",
+      "reference": "http://quotes.toscrape.com//author/Mark-Twain/"
+    },
+    {
+      "born": "March 14, 1879 in Ulm, Germany",
+      "name": "Albert Einstein",
+      "reference": "http://quotes.toscrape.com//author/Albert-Einstein/"
+    },
+    {
+      "born": "December 16, 1775 in Steventon Rectory, Hampshire, The United Kingdom",
+      "name": "Jane Austen",
+      "reference": "http://quotes.toscrape.com//author/Jane-Austen/"
+    },
+    {
+      "born": "July 31, 1965 in Yate, South Gloucestershire, England, The United Kingdom",
+      "name": "J.K. Rowling",
+      "reference": "http://quotes.toscrape.com//author/J-K-Rowling/"
+    },
+    {
+      "born": "December 16, 1775 in Steventon Rectory, Hampshire, The United Kingdom",
+      "name": "Jane Austen",
+      "reference": "http://quotes.toscrape.com//author/Jane-Austen/"
+    },
+    {
+      "born": "December 16, 1775 in Steventon Rectory, Hampshire, The United Kingdom",
+      "name": "Jane Austen",
+      "reference": "http://quotes.toscrape.com//author/Jane-Austen/"
+    },
+    {
+      "born": "November 29, 1898 in Belfast, Ireland",
+      "name": "C.S. Lewis",
+      "reference": "http://quotes.toscrape.com//author/C-S-Lewis/"
+    },
+    {
+      "born": "November 29, 1898 in Belfast, Ireland",
+      "name": "C.S. Lewis",
+      "reference": "http://quotes.toscrape.com//author/C-S-Lewis/"
+    },
+    {
+      "born": "November 30, 1835 in Florida, Missouri, The United States",
+      "name": "Mark Twain",
+      "reference": "http://quotes.toscrape.com//author/Mark-Twain/"
+    },
+    {
+      "born": "November 30, 1835 in Florida, Missouri, The United States",
+      "name": "Mark Twain",
+      "reference": "http://quotes.toscrape.com//author/Mark-Twain/"
+    },
+    {
+      "born": "November 29, 1898 in Belfast, Ireland",
+      "name": "C.S. Lewis",
+      "reference": "http://quotes.toscrape.com//author/C-S-Lewis/"
+    },
+    {
+      "born": "July 31, 1965 in Yate, South Gloucestershire, England, The United Kingdom",
+      "name": "J.K. Rowling",
+      "reference": "http://quotes.toscrape.com//author/J-K-Rowling/"
+    },
+    {
+      "born": "November 27, 1942 in Seattle, Washington, The United States",
+      "name": "Jimi Hendrix",
+      "reference": "http://quotes.toscrape.com//author/Jimi-Hendrix/"
+    },
+    {
+      "born": "May 09, 1860 in Kirriemuir, Angus, Scotland, The United Kingdom",
+      "name": "J.M. Barrie",
+      "reference": "http://quotes.toscrape.com//author/J-M-Barrie/"
+    },
+    {
+      "born": "October 14, 1894 in Cambridge, Massachusetts, The United States",
+      "name": "E.E. Cummings",
+      "reference": "http://quotes.toscrape.com//author/E-E-Cummings/"
+    },
+    {
+      "born": "March 04, 1965 in Kabul, Afghanistan",
+      "name": "Khaled Hosseini",
+      "reference": "http://quotes.toscrape.com//author/Khaled-Hosseini/"
+    },
+    {
+      "born": "April 28, 1926 in Monroeville, Alabama, The United States",
+      "name": "Harper Lee",
+      "reference": "http://quotes.toscrape.com//author/Harper-Lee/"
+    },
+    {
+      "born": "November 29, 1918 in New York City, New York, The United States",
+      "name": "Madeleine L'Engle",
+      "reference": "http://quotes.toscrape.com//author/Madeleine-LEngle/"
+    },
+    {
+      "born": "November 30, 1835 in Florida, Missouri, The United States",
+      "name": "Mark Twain",
+      "reference": "http://quotes.toscrape.com//author/Mark-Twain/"
+    },
+    {
+      "born": "March 02, 1904 in Springfield, MA, The United States",
+      "name": "Dr. Seuss",
+      "reference": "http://quotes.toscrape.com//author/Dr-Seuss/"
+    },
+    {
+      "born": "September 20, 1948 in Bayonne, New Jersey, The United States",
+      "name": "George R.R. Martin",
+      "reference": "http://quotes.toscrape.com//author/George-R-R-Martin/"
     }
   ]
 }

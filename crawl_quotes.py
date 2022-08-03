@@ -1,7 +1,8 @@
+# Used CCBP IDE with pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)
+
 from bs4 import BeautifulSoup
 import requests
 import json
-import re
 
 
 def get_author_details(next_url, author_name):
@@ -14,7 +15,7 @@ def get_author_details(next_url, author_name):
     born = str(born_date.string.encode('utf-8')) + " " + \
         str(born_place.string.encode('utf-8'))
     reference = str(authors_url)+"/"
-    name = author_name.string.encode('utf-8')
+    name = author_name.string.encode('utf-8').strip(" ' ")
     authors_list.append({
         "name": name,
         "born": born,
@@ -40,7 +41,6 @@ def get_each_quote_data(each):
     next_url = each.find("a", string=("(about)"))
 
     get_author_details(next_url, author.string)
-
     quotes_list.append({
         "quote": quote.string.encode("utf-8"),
         "author": author.string.encode("utf-8"),
@@ -57,11 +57,11 @@ pages = [
     "http://quotes.toscrape.com/page/3/",
     "http://quotes.toscrape.com/page/4/",
     "http://quotes.toscrape.com/page/5/",
-    "http://quotes.toscrape.com/page/6/"
-    "http://quotes.toscrape.com/page/7/"
-    "http://quotes.toscrape.com/page/8/"
-    "http://quotes.toscrape.com/page/9/"
-    "http://quotes.toscrape.com/page/10/"
+    "http://quotes.toscrape.com/page/6/",
+    "http://quotes.toscrape.com/page/7/",
+    "http://quotes.toscrape.com/page/8/",
+    "http://quotes.toscrape.com/page/9/",
+    "http://quotes.toscrape.com/page/10/",
 ]
 
 
@@ -75,15 +75,17 @@ def main():
         for each in each_quote:
             get_each_quote_data(each)
 
-        data = {
-            "quotes": quotes_list,
-            "authors": authors_list,
-        }
-
-        with open("quotes.json", 'w') as f:
-            json.dump(data, f)
-            f.close()
-
 
 main()
+
+data = {
+    "quotes": quotes_list,
+    "authors": authors_list,
+}
+
+with open("quotes.json", 'w') as f:
+    json.dump(data, f)
+    f.close()
+
+
 print("Data Transfer Completed!")
