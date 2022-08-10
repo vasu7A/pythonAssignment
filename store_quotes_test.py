@@ -28,7 +28,7 @@ for each in (data['quotes']):
     author = each['author']
     tags = len(each['tags'])
     cursor.execute('''insert into  quotes values(?,?,?,?)''',
-                   (id, quote, author, tags))
+                   (quote, author, tags, id))
     quotes_table_id += 1
 
 

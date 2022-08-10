@@ -2,5 +2,14 @@
     "cSpell.words": [
         "CCBP",
         "tages"
+    ],
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.formatting.provider": "autopep8",
+    "cSpell.ignoreWords": [
+        "c",
+        "lewis",
+        "misattributed",
+        "s",
+        "to"
     ]
 }
